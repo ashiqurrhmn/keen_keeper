@@ -5,6 +5,8 @@ import { RouterProvider } from "react-router/dom";
 import { createBrowserRouter } from "react-router";
 import Root from "./layout/Root";
 import ErrorPage from "./pages/ErrorPage";
+import Homepage from "./pages/Homepage";
+import AllFriendsPage from "./pages/AllFriendsPage";
 
 const router = createBrowserRouter([
   {
@@ -13,12 +15,20 @@ const router = createBrowserRouter([
     children: [
       {
         index: true,
-        element: <h2>Home page</h2>,
+        element: <Homepage />,
+      },
+      {
+        path: "allFriends",
+        element: <AllFriendsPage />,
       },
       {
         path: "/timeline",
-        element: <h2>Timeline page</h2>,
+        element: <div>timeline page</div>,
       },
+      {
+        path: "/stats",
+        element: <div>stats page</div>,
+      }
     ],
     errorElement: <ErrorPage />,
   },
