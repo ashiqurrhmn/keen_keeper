@@ -4,6 +4,7 @@ import "./index.css";
 import { RouterProvider } from "react-router/dom";
 import { createBrowserRouter } from "react-router";
 import Root from "./layout/Root";
+import ErrorPage from "./pages/ErrorPage";
 
 const router = createBrowserRouter([
   {
@@ -19,6 +20,7 @@ const router = createBrowserRouter([
         element: <h2>Timeline page</h2>,
       },
     ],
+    errorElement: <ErrorPage />,
   },
 ]);
 
