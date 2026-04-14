@@ -1,19 +1,7 @@
-import React, { useEffect, useState } from "react";
+
 import Card from "../componenets/ui/Card";
 
-const AllFriendsPage = () => {
-  const [friends, setFriends] = useState([]);
-
-  useEffect(() => {
-    const fetchData = async () => {
-      const res = await fetch("/data.json");
-      const data = await res.json();
-      console.log(data);
-      setFriends(data);
-    };
-    fetchData();
-  }, []);
-
+const AllFriendsPage = ({ friends }) => {
   return (
     <div className="w-9/12 mx-auto">
       <div className="pb-10">
