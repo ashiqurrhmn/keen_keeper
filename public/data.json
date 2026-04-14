@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "name": "John Doe",
+    "picture": "https://i.ibb.co.com/RkBmBmmK/163901-v9-ba.jpg",
+    "email": "john@example.com",
+    "days_since_contact": 12,
+    "status": "overdue",
+    "tags": ["college", "close friend"],
+    "bio": "Met in university. Love hiking together.",
+    "goal": 14,
+    "next_due_date": "2025-07-20"
+  },
+  {
+    "id": 2,
+    "name": "Sarah Khan",
+    "picture": "https://i.ibb.co.com/6JpRx8bM/a7ff07562d6a9690d203bd4b9e758c91.jpg",
+    "email": "sarah@example.com",
+    "days_since_contact": 5,
+    "status": "on-track",
+    "tags": ["work", "teammate"],
+    "bio": "Works with me on projects.",
+    "goal": 10,
+    "next_due_date": "2025-07-25"
+  },
+  {
+    "id": 3,
+    "name": "Rahim Ahmed",
+    "picture": "https://i.ibb.co.com/vCxvVQ4Y/Ahmed.jpg",
+    "email": "rahim@example.com",
+    "days_since_contact": 20,
+    "status": "overdue",
+    "tags": ["school", "friend"],
+    "bio": "Old school friend. Loves football.",
+    "goal": 15,
+    "next_due_date": "2025-07-15"
+  },
+  {
+    "id": 4,
+    "name": "Emily Watson",
+    "picture": "https://i.ibb.co.com/9KCMQCR/images.jpg",
+    "email": "emily@example.com",
+    "days_since_contact": 2,
+    "status": "on-track",
+    "tags": ["gym", "buddy"],
+    "bio": "Met at the gym.",
+    "goal": 7,
+    "next_due_date": "2025-07-30"
+  },
+  {
+    "id": 5,
+    "name": "Tanvir Hasan",
+    "picture": "https://i.ibb.co.com/chRnGkFQ/images-1.jpg",
+    "email": "tanvir@example.com",
+    "days_since_contact": 18,
+    "status": "almost due",
+    "tags": ["college", "group mate"],
+    "bio": "Worked on many assignments together.",
+    "goal": 14,
+    "next_due_date": "2025-07-18"
+  },
+  {
+    "id": 6,
+    "name": "Nusrat Jahan",
+    "picture": "https://i.ibb.co.com/F4XKGCgv/85890621.avif",
+    "email": "nusrat@example.com",
+    "days_since_contact": 7,
+    "status": "on-track",
+    "tags": ["family"],
+    "bio": "Cousin. Talks about life a lot.",
+    "goal": 10,
+    "next_due_date": "2025-07-28"
+  },
+  {
+    "id": 7,
+    "name": "David Miller",
+    "picture": "https://i.ibb.co.com/WNTnXRLv/images-2.jpg",
+    "email": "david@example.com",
+    "days_since_contact": 25,
+    "status": "overdue",
+    "tags": ["online friend"],
+    "bio": "Met through gaming.",
+    "goal": 20,
+    "next_due_date": "2025-07-10"
+  },
+  {
+    "id": 8,
+    "name": "Ayesha Rahman",
+    "picture": "https://i.ibb.co.com/jkLhFVd9/images-3.jpg",
+    "email": "ayesha@example.com",
+    "days_since_contact": 3,
+    "status": "on-track",
+    "tags": ["classmate"],
+    "bio": "Shares notes with me.",
+    "goal": 7,
+    "next_due_date": "2025-07-29"
+  }
+]
