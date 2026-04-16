@@ -1,36 +1,29 @@
 # Project Name: Keen Keeper
 
-Keen Keeper is a smart and simple productivity application designed to help users manage tasks, organize daily activities, and keep track of important information efficiently.
 
-## 🚀 Description
+Keen Keeper allows users to connect with their keens through audio calls, video calls, and text messaging, all in one place. After every interaction, the app automatically records it and displays everything in a timeline organized by date, helping users keep track of their communication history effortlessly.
 
-Keen Keeper helps you stay organized by allowing you to store, manage, and track your tasks or notes in one place. It focuses on simplicity and usability so users can quickly add, update, and monitor their activities without hassle.
 
 ## 🛠️ Technologies Used
 
-- HTML
-- CSS
-- JavaScript
-- React (if you used it)
-- Local Storage / API (if applicable)
+- React.js
+- React router
+- DaisyUi
+- Tailwind CSS
+- Recharts
 
 ## ✨ Key Features
 
-1. 📌 Task Management  
-   Easily add, edit, and delete tasks to stay organized.
+1. 📞 Multi-Mode Communication  
+   Users can interact with their keens via audio calls, video calls, and text messages.
 
-2. ⏱️ Real-Time Updates  
-   Changes reflect instantly, giving a smooth user experience.
+2. 🗂️ Interaction Timeline  
+   Every interaction is automatically saved and displayed in a timeline sorted by date.
 
-3. 💾 Data Persistence  
-   Saves your data locally so nothing gets lost after refresh.
+3. 📊 Statistics Dashboard  
+   A visual pie chart shows the number of calls, texts, and video interactions.
 
----
 
-## 📂 Project Setup
+   ## 🌐 Live Demo
 
-```bash
-git clone https://github.com/ashiqurrhmn/keen_keeper.git
-cd keen_keeper
-npm install
-npm start
+🔗 https://keen-keeper-wine-zeta.vercel.app/
