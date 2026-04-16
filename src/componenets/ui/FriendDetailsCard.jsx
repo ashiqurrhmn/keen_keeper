@@ -4,6 +4,7 @@ import { GoArchive } from "react-icons/go";
 import { RiDeleteBin6Line, RiMessage2Line } from "react-icons/ri";
 import { BiPhoneCall } from "react-icons/bi";
 import { IoVideocamOutline } from "react-icons/io5";
+import { toast } from "react-toastify";
 
 const FriendDetailsCard = ({
   expectedFriend,
@@ -11,22 +12,28 @@ const FriendDetailsCard = ({
   getStatusColor,
   getStatusLabel,
   formatDate,
-  friendTimeLine,
   addTimelineEntry,
 }) => {
   const handleCall = () => {
     addTimelineEntry(expectedFriend.name, "Call");
+    toast.success("Call to " + expectedFriend.name + " succeeded!",{
+      position: "top-center",
+    });
   };
 
   const handleText = () => {
     addTimelineEntry(expectedFriend.name, "Text");
+    toast.success("Text to " + expectedFriend.name + " succeeded!", {
+      position: "top-center",
+    });
   };
 
   const handleVideo = () => {
     addTimelineEntry(expectedFriend.name, "Video");
+    toast.success("Video call to " + expectedFriend.name + " succeeded!", {
+      position: "top-center",
+    });
   };
-
-  console.log(friendTimeLine, "friendTimeLine");
 
   return (
     <div className="bg-[#F8FAFC] py-20">
