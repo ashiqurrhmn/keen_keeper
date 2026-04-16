@@ -1,14 +1,18 @@
-import React from "react";
 import { useParams } from "react-router";
 import useFriend from "../hooks/useFriend";
 
 import FriendDetailsCard from "../componenets/ui/FriendDetailsCard";
+import { FriendTimeLineContext } from "../context/FriendTimeLineContext";
+import { useContext } from "react";
 
 const FriendDetails = () => {
-    const { id } = useParams();
-    const { friends, loading } = useFriend();
-    const expectedFriend = friends.find((friend) => friend.id == id);
+  const { id } = useParams();
+  const { friends, loading } = useFriend();
+  const expectedFriend = friends.find((friend) => friend.id == id);
 
+  const { friendTimeLine, setFriendTimeline, addTimelineEntry } = useContext(
+    FriendTimeLineContext,
+  );
 
   const getStatusColor = (status) => {
     if (status === "overdue") return "bg-red-500";
@@ -40,6 +44,9 @@ const FriendDetails = () => {
       getStatusColor={getStatusColor}
       getStatusLabel={getStatusLabel}
       formatDate={formatDate}
+      friendTimeLine={friendTimeLine}
+      setFriendTimeline={setFriendTimeline}
+      addTimelineEntry={addTimelineEntry}
     />
   );
 };

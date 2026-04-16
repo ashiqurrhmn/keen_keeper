@@ -4,6 +4,7 @@ import Homepage from "../pages/Homepage";
 import AllFriendsPage from "../pages/AllFriendsPage";
 import ErrorPage from "../pages/ErrorPage";
 import FriendDetails from "../pages/FriendDetails";
+import TimelinePage from "../pages/TimelinePage";
 
 export const router = createBrowserRouter([
   {
@@ -20,7 +21,7 @@ export const router = createBrowserRouter([
       },
       {
         path: "/timeline",
-        element: <div>timeline page</div>,
+        element: <TimelinePage />,
       },
       {
         path: "/stats",
