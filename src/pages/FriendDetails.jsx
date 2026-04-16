@@ -11,7 +11,7 @@ const FriendDetails = () => {
   const expectedFriend = friends.find((friend) => friend.id == id);
 
   const { friendTimeLine, setFriendTimeline, addTimelineEntry } = useContext(
-    FriendTimeLineContext,
+    FriendTimeLineContext
   );
 
   const getStatusColor = (status) => {

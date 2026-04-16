@@ -1,7 +1,7 @@
 import React, { useContext, useState } from "react";
 import { FriendTimeLineContext } from "../context/FriendTimeLineContext";
-import TimelineItem from "../componenets/ui/TimelineICard";
-import TimelineCard from "../componenets/ui/TimelineICard";
+import TimelineItem from "../componenets/ui/TimelineCard";
+import TimelineCard from "../componenets/ui/TimelineCard";
 
 const TimelinePage = () => {
   const { friendTimeLine } = useContext(FriendTimeLineContext);
